@@ -1,7 +1,7 @@
 ## PHP and Android API
 Tugas Android
 
-## Nama Anggota Tim 1
+## Nama
 Aryan Nasikhul Amin (7)
 1941727014
 
