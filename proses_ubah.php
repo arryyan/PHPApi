@@ -3,7 +3,7 @@
 include "koneksi.php";
 
 // Ambil data NIS yang dikirim oleh form_ubah.php melalui URL
-$nis = $_GET['nis'];
+$nis = $_POST['nis'];
 
 // Ambil Data yang Dikirim dari Form
 $nama = $_POST['nama'];

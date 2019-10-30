@@ -3,7 +3,7 @@
 include "koneksi.php";
 
 // Ambil data NIS yang dikirim oleh index.php melalui URL
-$nis = $_GET['nis'];
+$nis = $_POST['nis'];
 
 // Query untuk menampilkan data siswa berdasarkan NIS yang dikirim
 $query = "SELECT * FROM siswa WHERE nis='".$nis."'";
